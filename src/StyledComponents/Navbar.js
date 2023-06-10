@@ -47,8 +47,8 @@ export const Menu = styled.ul`
 
 export const Item = styled(Link)`
   color: ${colors.white};
-  font-weight: 400;
-  font-size: 22px;
+  font-weight: 200;
+  font-size: 18px;
   cursor: pointer;
 
   &:hover {
