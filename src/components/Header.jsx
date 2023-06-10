@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   Container,
   Icono,
@@ -10,9 +10,21 @@ import {
 
 const Header = () => {
   const [icon, setIcon] = useState(false)
+  const [hiddenLink, setHiddenLink] = useState('')
+
+  useEffect(() => {
+    if (hiddenLink === 'hidden') {
+      setHiddenLink('')
+      setIcon(false)
+    }
+  }, [hiddenLink])
 
   const handleClick = () => {
     setIcon((prev) => !prev)
+  }
+
+  const clickLink = () => {
+    setHiddenLink('hidden')
   }
 
   return (
@@ -27,11 +39,19 @@ const Header = () => {
         </Navbar>
       </Container>
       {icon && (
-        <Menu>
-          <Item to="/">Home</Item>
-          <Item to="/about">Nosotros</Item>
-          <Item to="/hiring">Contratación</Item>
-          <Item to="/contact">Contacto</Item>
+        <Menu className={hiddenLink}>
+          <Item onClick={clickLink} to="/">
+            Home
+          </Item>
+          <Item onClick={clickLink} to="/about">
+            Nosotros
+          </Item>
+          <Item onClick={clickLink} to="/hiring">
+            Contratación
+          </Item>
+          <Item onClick={clickLink} to="/contact">
+            Contacto
+          </Item>
         </Menu>
       )}
     </>
