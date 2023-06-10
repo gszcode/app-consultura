@@ -1,4 +1,9 @@
-import { Section, SubTitle, TitleBanner } from '../StyledComponents/Banner'
+import {
+  ImgContainer,
+  Section,
+  SubTitle,
+  TitleBanner
+} from '../StyledComponents/Banner'
 import { Button, IconBtn } from '../StyledComponents/Button'
 
 const Banner = () => {
@@ -11,6 +16,7 @@ const Banner = () => {
       <Button>
         SABER MÁS <IconBtn className="fa-solid fa-arrow-down" />
       </Button>
+      <ImgContainer />
     </Section>
   )
 }
