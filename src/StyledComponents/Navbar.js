@@ -16,6 +16,8 @@ export const Navbar = styled.nav`
   align-items: center;
   padding: 0 20px;
   position: fixed;
+  box-shadow: 0px 1px 5px 0px rgba(84, 84, 84, 1);
+  box-shadow: 0 0 5px #000;
 `
 export const Title = styled.h1`
   color: ${colors.second};
@@ -31,13 +33,16 @@ export const Icono = styled.i`
   }
 `
 export const Menu = styled.ul`
+  width: 100%;
   height: 200px;
+  position: absolute;
   background-color: ${colors.primary};
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
   padding: 0 20px;
+  box-shadow: 0px 1px 5px 0px rgba(84, 84, 84, 1);
 `
 
 export const Item = styled(Link)`
