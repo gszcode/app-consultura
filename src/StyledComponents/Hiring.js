@@ -3,7 +3,7 @@ import { colors } from '../theme'
 
 export const SectionHiring = styled.section`
   position: relative;
-  height: 1800px;
+  height: 1300px;
 `
 export const HiringData = styled.div`
   background-color: #26262c;
