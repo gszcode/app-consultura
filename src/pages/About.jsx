@@ -1,19 +1,19 @@
 import {
   AboutParrafo,
   AboutTitle,
-  ContainerAbout,
   Image,
   ImageAbout,
-  PageTitle,
   SectionAbout
 } from '../StyledComponents/About'
-import { Button, IconBtn } from '../StyledComponents/Button'
+import { Button } from '../StyledComponents/Button'
+import { Container } from '../StyledComponents/Container'
+import { SubTitle } from '../StyledComponents/Titles'
 
 const About = () => {
   return (
     <SectionAbout>
-      <ContainerAbout>
-        <PageTitle>Nosotros</PageTitle>
+      <Container>
+        <SubTitle>Nosotros</SubTitle>
         <AboutTitle>¿Qué es Busisness-GZ?</AboutTitle>
         <AboutParrafo>
           Somos una consultora de servicios IT especializada en reclutamiento.
@@ -23,13 +23,11 @@ const About = () => {
           sector de la tecnología, tienen una verdadera pasión por lo que hacen
           y esto se refleja en el resultado de cada proyecto.
         </AboutParrafo>
-      </ContainerAbout>
+      </Container>
       <ImageAbout>
         <Image src="/image-about.jpg" />
       </ImageAbout>
-      <Button>
-        CONOCER MÁS <IconBtn className="fa-solid fa-arrow-down" />
-      </Button>
+      <Button>CONOCER MÁS</Button>
     </SectionAbout>
   )
 }
