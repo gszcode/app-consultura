@@ -31,7 +31,7 @@ const Header = () => {
     <>
       <Container>
         <Navbar>
-          <Title>Busisness-GZ</Title>
+          <Title>Busisness-IT</Title>
           <Icono
             onClick={handleClick}
             className={icon ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}
