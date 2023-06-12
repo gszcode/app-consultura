@@ -1,21 +1,15 @@
-import {
-  ImgContainer,
-  Section,
-  SubTitle,
-  TitleBanner
-} from '../StyledComponents/Banner'
-import { Button, IconBtn } from '../StyledComponents/Button'
+import { ImgContainer, Section } from '../StyledComponents/Banner'
+import { Button } from '../StyledComponents/Button'
+import { Title, SubTitle } from '../StyledComponents/Titles'
 
 const Banner = () => {
   return (
     <Section>
       <SubTitle>You make the request, we make the connection</SubTitle>
-      <TitleBanner>
+      <Title>
         Somos una consultora de servicios IT especializada en reclutamiento
-      </TitleBanner>
-      <Button>
-        SABER MÁS <IconBtn className="fa-solid fa-arrow-down" />
-      </Button>
+      </Title>
+      <Button>SABER MÁS</Button>
       <ImgContainer />
     </Section>
   )
