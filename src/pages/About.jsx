@@ -14,7 +14,7 @@ const About = () => {
     <SectionAbout>
       <Container>
         <SubTitle>Nosotros</SubTitle>
-        <AboutTitle>¿Qué es Busisness-GZ?</AboutTitle>
+        <AboutTitle>¿Qué es Busisness-IT?</AboutTitle>
         <AboutParrafo>
           Somos una consultora de servicios IT especializada en reclutamiento.
           Estamos comprometidos en brindar soluciones de tecnología de alta
