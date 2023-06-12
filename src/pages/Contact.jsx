@@ -24,7 +24,7 @@ const Contact = () => {
         <ContactParrafo>
           Si buscas una empresa de servicios IT que trabaje incansablemente para
           cumplir tus expectativas y objetivos, no busques más allá de{' '}
-          <Span>Busisness-GZ</Span>.
+          <Span>Busisness-IT</Span>.
         </ContactParrafo>
         <Button>CONTACTANOS</Button>
       </ContactData>
