@@ -8,7 +8,7 @@ export const Button = styled(Link)`
   border: 1px solid transparent;
   color: ${colors.white};
   font-weight: 500;
-  width: 165px;
+  width: 190px;
   height: 40px;
   text-align: center;
   font-size: 14px;
@@ -20,9 +20,4 @@ export const Button = styled(Link)`
     color: ${colors.third};
     border: 1px solid ${colors.third};
   }
-`
-export const IconBtn = styled.i`
-  color: ${colors.third};
-  font-size: 12px;
-  margin-left: 4px;
 `
