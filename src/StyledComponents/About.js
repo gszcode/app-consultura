@@ -9,18 +9,12 @@ export const SectionAbout = styled.section`
   flex-direction: column;
   gap: 20px;
 `
-export const ContainerAbout = styled.div``
-export const PageTitle = styled.h3`
-  color: ${colors.third};
-  font-size: 18px;
-`
 export const AboutTitle = styled.h2`
   color: ${colors.primary};
   font-size: 22px;
   margin-top: 20px;
 `
 export const AboutParrafo = styled.p`
-  color: ${colors.primary};
   font-size: 16px;
   color: ${colors.grey};
   font-weight: 300;
