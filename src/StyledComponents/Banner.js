@@ -10,15 +10,6 @@ export const Section = styled.section`
   justify-content: center;
   gap: 30px;
 `
-export const SubTitle = styled.h3`
-  color: ${colors.third};
-  font-weight: bold;
-  font-size: 18px;
-`
-export const TitleBanner = styled.h2`
-  font-weight: bold;
-  font-size: 35px;
-`
 export const ImgContainer = styled.div`
   position: absolute;
   bottom: 0;
