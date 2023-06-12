@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Hiring from './pages/Hiring'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Hiring />
       <Contact />
+      <Footer />
     </>
   )
 }
