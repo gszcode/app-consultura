@@ -3,7 +3,9 @@ import {
   Container,
   Icono,
   Item,
+  ItemLg,
   Menu,
+  MenuLg,
   Navbar,
   Title
 } from '../StyledComponents/Navbar'
@@ -36,6 +38,20 @@ const Header = () => {
             onClick={handleClick}
             className={icon ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}
           />
+          <MenuLg>
+            <ItemLg onClick={clickLink} to="/">
+              Home
+            </ItemLg>
+            <ItemLg onClick={clickLink} to="/about">
+              Nosotros
+            </ItemLg>
+            <ItemLg onClick={clickLink} to="/hiring">
+              Contratación
+            </ItemLg>
+            <ItemLg onClick={clickLink} to="/contact">
+              Contacto
+            </ItemLg>
+          </MenuLg>
         </Navbar>
       </Container>
       {icon && (
