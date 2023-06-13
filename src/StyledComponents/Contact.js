@@ -40,6 +40,7 @@ export const ContactParrafo = styled.p`
   line-height: 25px;
 
   @media (min-width: 900px) {
+    width: 65%;
     font-size: 18px;
     text-align: center;
   }
