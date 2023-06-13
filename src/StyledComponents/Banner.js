@@ -18,6 +18,10 @@ export const ImgContainer = styled.div`
   height: 100%;
   clip-path: polygon(0 100%, 100% 100%, 100% 90%, 0 98%);
   background-color: ${colors.primary};
+
+  @media (min-width: 700px) {
+    clip-path: polygon(0 100%, 100% 100%, 100% 80%, 0 98%);
+  }
 `
 export const Title = styled.h2`
   font-weight: bold;
