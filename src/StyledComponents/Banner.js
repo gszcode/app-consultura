@@ -4,6 +4,7 @@ import { colors } from '../theme'
 export const Section = styled.section`
   width: 100%;
   min-height: 92vh;
+  height: 800px;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
