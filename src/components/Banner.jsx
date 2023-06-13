@@ -1,6 +1,6 @@
 import { ImgContainer, Section } from '../StyledComponents/Banner'
 import { Button } from '../StyledComponents/Button'
-import { Title, SubTitle } from '../StyledComponents/Titles'
+import { Title, SubTitle } from '../StyledComponents/Banner'
 
 const Banner = () => {
   return (

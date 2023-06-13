@@ -7,6 +7,10 @@ export const SectionContact = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 900px) {
+    height: 500px;
+  }
 `
 export const ContactData = styled.div`
   display: flex;
@@ -19,6 +23,10 @@ export const TitleContact = styled.h2`
   font-size: 22px;
   margin: 10px 0;
   text-align: center;
+
+  @media (min-width: 900px) {
+    font-size: 28px;
+  }
 `
 export const Icono = styled.i`
   color: ${colors.third};
@@ -30,6 +38,11 @@ export const ContactParrafo = styled.p`
   font-weight: 300;
   margin: 15px 0 30px 0;
   line-height: 25px;
+
+  @media (min-width: 900px) {
+    font-size: 18px;
+    text-align: center;
+  }
 `
 export const Span = styled.span`
   font-weight: bold;

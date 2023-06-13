@@ -2,9 +2,13 @@ import styled from 'styled-components'
 import { colors } from '../theme'
 
 export const SectionFooter = styled.footer`
-  height: 300px;
+  height: 400px;
   margin-top: 30px;
   position: relative;
+
+  @media (min-width: 1024px) {
+    height: 500px;
+  }
 `
 export const FooterData = styled.footer`
   background-color: #26262c;
@@ -20,11 +24,26 @@ export const FooterData = styled.footer`
   justify-content: center;
   align-items: center;
 `
+export const Title = styled.h1`
+  color: ${colors.second};
+  font-weight: 900;
+  margin: 20px 0;
+  font-size: 20px;
+
+  @media (min-width: 700px) {
+    font-size: 24px;
+  }
+`
 export const FooterTitle = styled.h3`
   color: ${colors.white};
   font-size: 16px;
   text-align: center;
   font-weight: 200;
+
+  @media (min-width: 1024px) {
+    width: 400px;
+    font-size: 20px;
+  }
 `
 export const IconContainer = styled.div`
   display: flex;

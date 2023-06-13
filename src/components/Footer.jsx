@@ -6,13 +6,15 @@ import {
   SectionFooter,
   FooterEmail,
   FooterCopyright,
-  Negrita
+  Negrita,
+  Title
 } from '../StyledComponents/Footer'
 
 const Footer = () => {
   return (
     <SectionFooter>
       <FooterData>
+        <Title>BUSISNESS-IT</Title>
         <FooterTitle>
           Consultora de servicios IT especializada en reclutamiento
         </FooterTitle>

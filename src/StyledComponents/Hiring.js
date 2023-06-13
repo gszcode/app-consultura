@@ -3,7 +3,31 @@ import { colors } from '../theme'
 
 export const SectionHiring = styled.section`
   position: relative;
-  height: 1300px;
+  height: 1500px;
+
+  @media (min-width: 290px) {
+    height: 1800px;
+  }
+
+  @media (min-width: 300px) {
+    max-height: 1600px;
+  }
+
+  @media (min-width: 400px) {
+    max-height: 1400px;
+  }
+
+  @media (min-width: 540px) {
+    max-height: 1200px;
+  }
+
+  @media (min-width: 700px) {
+    height: 1150px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 900px;
+  }
 `
 export const HiringData = styled.div`
   background-color: #26262c;
@@ -22,6 +46,27 @@ export const TitleHiring = styled.h2`
   font-size: 22px;
   margin: 10px 0;
   color: ${colors.white};
+
+  @media (min-width: 700px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
+`
+export const SubTitle = styled.h3`
+  color: ${colors.third};
+  font-weight: bold;
+  font-size: 18px;
+
+  @media (min-width: 700px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
 `
 export const HiringParrafo = styled.p`
   color: ${colors.grey};
@@ -29,6 +74,10 @@ export const HiringParrafo = styled.p`
   font-weight: 300;
   margin: 30px 0;
   line-height: 25px;
+
+  @media (min-width: 700px) {
+    font-size: 18px;
+  }
 `
 export const Icono = styled.i`
   color: ${colors.third};
