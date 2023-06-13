@@ -3,7 +3,7 @@ import { colors } from '../theme'
 
 export const Section = styled.section`
   width: 100%;
-  height: 750px;
+  min-height: 92vh;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
