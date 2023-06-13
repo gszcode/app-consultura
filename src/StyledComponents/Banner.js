@@ -9,6 +9,7 @@ export const Section = styled.section`
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+  position: relative;
 `
 export const ImgContainer = styled.div`
   position: absolute;
