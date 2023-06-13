@@ -20,9 +20,10 @@ export const Navbar = styled.nav`
   box-shadow: 0 0 5px #000;
   z-index: 10;
 `
-export const Title = styled.h1`
+export const Title = styled(Link)`
   color: ${colors.second};
   font-family: 'Kalam', cursive;
+  font-size: 28px;
 `
 export const Icono = styled.i`
   color: ${colors.white};
