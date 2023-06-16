@@ -69,6 +69,16 @@ export const IconItem = styled.span`
     color: ${colors.white};
     background-color: ${colors.third};
   }
+
+  @media (min-width: 700px) {
+    width: 36px;
+    height: 36px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 38px;
+    height: 38px;
+  }
 `
 export const FooterEmail = styled.p`
   font-weight: 700;
