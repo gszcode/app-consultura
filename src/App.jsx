@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Index } from './pages/Index'
 import NotFound from './pages/NotFound'
 import About from './pages/About'
+import Hiring from './pages/Hiring'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
+        <Route path="/hiring" element={<Hiring />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
