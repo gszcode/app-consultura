@@ -7,6 +7,7 @@ export const SectionContact = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   @media (min-width: 900px) {
     height: 500px;
