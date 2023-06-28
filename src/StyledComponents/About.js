@@ -167,7 +167,7 @@ export const DivData = styled.div`
   align-items: center;
   justify-content: center;
   margin: 30px 0;
-  background-color: #000;
+  background-color: rgb(38, 38, 44);
   padding: 20px;
 
   @media (min-width: 500px) {
