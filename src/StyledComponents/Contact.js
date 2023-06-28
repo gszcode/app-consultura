@@ -50,3 +50,38 @@ export const Span = styled.span`
   font-weight: bold;
   font-size: 18px;
 `
+
+// Contact Page Styles
+export const FormContainer = styled.div`
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+  text-align: center;
+`
+export const Form = styled.form`
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+`
+export const Input = styled.input`
+  outline: none;
+  min-width: 250px;
+  width: 100%;
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0px 2px 5px #ccc;
+`
+export const Img = styled.img`
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+`
